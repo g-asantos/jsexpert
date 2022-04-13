@@ -1,0 +1,1 @@
+{"processes":{"48b49661-aba2-4103-afee-a8c64dcd5dad":{"parent":"4d07a4cf-7648-4f77-93e8-cddf044c13d9","children":[]},"4d07a4cf-7648-4f77-93e8-cddf044c13d9":{"parent":null,"children":["48b49661-aba2-4103-afee-a8c64dcd5dad"]}},"files":{"/home/qrpoint/jsexpert/jstest/aula04-coverage-e2e/src/api.js":["48b49661-aba2-4103-afee-a8c64dcd5dad"]},"externalIds":{}}
