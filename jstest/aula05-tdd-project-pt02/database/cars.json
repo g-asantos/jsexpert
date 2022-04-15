@@ -1,0 +1,23 @@
+[
+  {
+    "id": "faa29081-50fe-4f38-8ebc-a46aa9eda41f",
+    "name": "Corvette",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "7a39a262-d64c-42a2-bed5-058577150d8a",
+    "name": "Ranchero",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "bbc329e1-eff9-43a4-8231-45bf41a267d5",
+    "name": "Taurus",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  }
+]

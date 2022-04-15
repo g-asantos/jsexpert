@@ -2,6 +2,9 @@ const {error} = require('./src/constants');
 const File = require('./src/file');
 const {rejects, deepStrictEqual} = require('assert');
 
+// Abaixo é uma IIFE(Immediately Invoked Function Expression), que é
+// uma função que é executada imediatamente após sua declaração.
+
 (async () => {
     {
         const filePath = './mocks/emptyFile-invalid.csv';
