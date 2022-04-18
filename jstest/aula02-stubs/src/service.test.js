@@ -6,7 +6,7 @@ const BASE_URL_2= 'https://swapi.dev/api/planets/2/';
 
 const mocks = {
     tatooine: require('./mocks/tatooine.json'),
-    aldeeran: require('./mocks/alderaan.json'),
+    alderaan: require('./mocks/alderaan.json'),
 }
 
 ;(async () => {
@@ -17,7 +17,12 @@ const mocks = {
     //     console.log(JSON.stringify(withoutStub));
     // }
     const service = new Service();
+
+    // Com stubs, você pode definir o retorno de uma função
+
     const stub = sinon.stub(service, service.makeRequest.name)
+
+    // se chamar a função makeRequest com esse argumento, deve retornar um objeto que nós definimos
     stub.withArgs(BASE_URL_1).resolves(mocks.tatooine);
     stub.withArgs(BASE_URL_2).resolves(mocks.alderaan);
     {

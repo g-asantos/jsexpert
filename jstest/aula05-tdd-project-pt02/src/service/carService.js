@@ -6,9 +6,9 @@ class CarService{
   }
 
   getRandomPositionFromArray(list){
-    const listLenght = list.length;
+    const listLength = list.length;
 
-    return Math.floor(Math.random() * (listLenght))
+    return Math.floor(Math.random() * (listLength))
   }
 
   chooseRandomCar(carCategory){

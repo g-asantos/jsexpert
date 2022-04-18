@@ -20,6 +20,8 @@ describe('CarService Suite Tests', () => {
       cars: carsDatabase
     });
   });
+
+  // cria e conclui o sandbox antes de cada teste, para não afetar os outros testes
   beforeEach(() => {
     sandbox = sinon.createSandbox();
   });

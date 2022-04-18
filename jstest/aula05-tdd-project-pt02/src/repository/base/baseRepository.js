@@ -1,5 +1,6 @@
 const {readFile} = require('fs/promises');
 
+// Classe base para os repositórios, simula o comportamento do banco de dados
 class BaseRepository{
   constructor({file}){
     this.file=file;
