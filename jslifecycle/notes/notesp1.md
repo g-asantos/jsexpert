@@ -32,6 +32,3 @@ ele vai chamar o valueOf. Se ambos não retornarem valor primitivo, estora TypeE
 Ordem de chamada do toString e valueOf muda de acordo com tipo de conversão. Se for tipo numero, chama primeiro o valueOf.
 
 Symbol.toPrimitive tem prioridade maior que toString e valueOf, se vc implementa-lo, vai ignorar todo resto.
-
-** Prototype Chain
-
