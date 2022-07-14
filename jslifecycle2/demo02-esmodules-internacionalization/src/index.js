@@ -20,7 +20,7 @@ async function mainLoop(){
         
         const person = Person.generateInstanceFromString(answer)
         terminalController.updateTable(person.formatted(DEFAULT_LANG))
-        await save(person)
+        await save(person, './../database.json')
         return mainLoop()
     }catch(error){
         console.error("DEU RUIM**" + error)
